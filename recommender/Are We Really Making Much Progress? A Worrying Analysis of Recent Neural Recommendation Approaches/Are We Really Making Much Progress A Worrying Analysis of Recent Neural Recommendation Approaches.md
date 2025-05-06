@@ -90,7 +90,7 @@ URL: https://arxiv.org/abs/1907.06902
             - 古典的手法にはかっているが，非パーソナライズドなTopPopularに負けてる
     - データセットの特殊性や人気バイアスに左右される
     
-    ![image.png](data/image 1.png)
+    ![image.png](data/image1.png)
     
 - MCRec (Metapath based Context for Recommendation, KDD’18)
     - ユーザやアイテムに関する補助情報の関係（メタパス）を文脈ベクトルとして表し，ユーザ，アイテム，文脈の3者を統合するようにスコアを算出する
@@ -102,7 +102,7 @@ URL: https://arxiv.org/abs/1907.06902
         - ItemKNNを超えることができていない
         - 提供されたコードでは，各メトリックに対し，最良な結果となるようなエポックを選択して報告していることもわかった
     
-    ![image.png](data/image 2.png)
+    ![image.png](data/image%202.png)
     
 - CVAE (Collaborative Variational Autoencoder, KDD’18)
     - VAEを用いて評価データとアイテムの内容情報を統合的に扱う手法
@@ -114,14 +114,14 @@ URL: https://arxiv.org/abs/1907.06902
         - リスト長が最大の300の場合は，ItemKNN-CFCBFを超えることができなかった
     - CVAEは特定の構成においてのみベースラインより有利であり、比較的に長く、むしろ珍しい推奨カットオフ閾値においてのみ有利
     
-    ![image.png](data/image 3.png)
+    ![image.png](data/image%203.png)
     
 - CDL (Collaborative Deep Learning, KDD’15)
     - スタック型デノイジングオートエンコーダ（SDAE）による特徴学習と行列分解に基づく協調フィルタリングを結合させた、階層ベイズモデル
     - CVAEで引用されており，ベースラインとなっている
     - CVAEはCDJに比べてどのリスト長よりも優れていることがわかり．進歩があったことはわかる
     
-    ![image.png](data/image 4.png)
+    ![image.png](data/image%204.png)
     
 - NeuMF (Neural Matrix ****Factorization, WWW’17)
     - 二ューラルネットワークでユーザとアイテムのインタラクション関数を学習する協調フィルタリング手法
@@ -133,7 +133,7 @@ URL: https://arxiv.org/abs/1907.06902
         - Pinterestでは古典的手法が少なくとも二つ以上NeuMFを上回っている
         - Movielens1MではNeuMFが最も良い性のであったが，単純な線形手法であるSLIMを超えてはいない
     
-    ![image.png](data/image 5.png)
+    ![image.png](data/image%205.png)
     
 - SpectralCF (Spectral Collaborative Filtering, RecSys’18)
     - ユーザ–アイテム二部グラフ上でのスペクトル畳み込みに基づくグラフ協調フィルタリング手法
@@ -146,7 +146,7 @@ URL: https://arxiv.org/abs/1907.06902
         - MovieLensでは全ての古典的手法がSpectralCFを上回っている
         - 著者が提供したMovieLensのデータ分割で試すとSpectralCFは他の手法を凌駕している
     
-    ![image.png](data/image 6.png)
+    ![image.png](data/image%206.png)
     
 - Mult-VAE (Variational Autoencoders for Collaborative Filtering, WWW’18)
     - 多項分布に基づくVAEを提案し、暗黙的フィードバックの確率的生成モデルとして協調フィルタリングを行う手法
@@ -158,9 +158,9 @@ URL: https://arxiv.org/abs/1907.06902
         - Netflixデータでどの手法よりも良い結果を出している
         - 追加のカットオフ長で検証するとSLIMの方が優れている場合もあった
     
-    ![image.png](data/image 7.png)
+    ![image.png](data/image%207.png)
     
-    ![image.png](data/image 8.png)
+    ![image.png](data/image%208.png)
     
 
 # 所感
